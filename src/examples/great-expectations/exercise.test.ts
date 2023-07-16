@@ -12,7 +12,7 @@ import { KanbanBoard } from '$lib/kanban-board';
  * toThrowError: https://vitest.dev/api/expect.html#tothrowerror
  */
 
-it.todo(
+it(
   'should pass if the two numbers would add up correctly in a language other than JavaScript',
   () => {
     expect(0.2 + 0.1).toEqual(0.3);
